@@ -1,0 +1,30 @@
+[
+    {
+        "titulo" : "Nintendo Switch",
+        "imagen" : "https://falabella.scene7.com/is/image/Falabella/15577611_1?wid=800&hei=800&qlt=70",
+        "descripcion" : "Consola Nintendo Switch Black",
+        "precio" : 229000,
+        "stock" : 3
+    },
+    {
+        "titulo" : "Smartwatch JP",
+        "imagen" : "https://cf.shopee.ph/file/0c2cf805d4f6bd7faa1029d4ede44ef4",
+        "descripcion" : "Smartwatch free phone duración maxima 40 horas",
+        "precio" : 59000,
+        "stock" : 3
+    },
+    {
+        "titulo" : "HeadPhones Black JP",
+        "imagen" : "https://m.media-amazon.com/images/I/714t+TSlpEL.jpg",
+        "descripcion" : "Audifonos bluetooth duracion maxima 30 horas",
+        "precio" : 35000,
+        "stock" : 3
+    },
+    {
+        "titulo" : "Monitor mediano",
+        "imagen" : "https://www.lg.com/cl/images/monitores/MD06015156/gallery/medium03.jpg",
+        "descripcion" : "Monitor 24 pulgadas HD",
+        "precio" : 110.000,
+        "stock" : 3
+    }
+]

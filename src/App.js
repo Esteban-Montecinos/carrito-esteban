@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Col, Container, Row } from "react-bootstrap";
+import Navegacion from "./components/Navegacion";
+import Producto from "./components/Producto";
+import { CarroProvider } from "./contexts/CarroContext";
+import listaProductos from "./listaProductos.json";
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CarroProvider>
+      <Container>
+        <Navegacion titulo="Mi primer sitio de compras en React" />
+        <Row>
+          {listaProductos.map((producto, index) => {
+            return (
+              <Col sm={4}>
+                <Producto key={index} {...producto} />
+              </Col>
+            );
+          })}
+        </Row>
+      </Container>
+    </CarroProvider>
   );
 }
 
